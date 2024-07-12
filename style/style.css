@@ -11,10 +11,14 @@
 .header-section{
     margin-top: 0px;
     padding-top: 0px;
+    padding-bottom: 200px;
     background-color: #FFF8F3;
     background-image: url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
     background-position: top left, bottom right;
+    /* height: 100vh; */
 }
 
 nav{
@@ -100,6 +104,17 @@ nav ul li{
     border-radius: 5px;
     cursor: pointer;
 }
+.heir-me{
+    padding: 14px 25px;
+    background-color: #FD6E0A;
+    color: rgb(255, 255, 255);
+    font-weight: bolder ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
 .info-container .hi{
     margin-bottom: 13px;
     margin-top: 200px;
@@ -264,4 +279,95 @@ hr{
         width: 95%;
         margin: 0px 5%;
     }
+    .about-section{
+        margin-top: 40px;
+        padding: 2% 4%;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .about-items{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
+    }
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        /* width: 30%; */
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .item-text{
+        text-align: center;
+    }
+    .header-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .developer-content{
+        margin: 0px 34px 0px 140px;
+        display: flex;
+        flex-direction: column;
+    }
+    .dev-img{
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        /* width: 60%; */
+        width: 90%;
+        margin: 0px auto;
+        /* margin: 0px; */
+        padding: 0px;
+        /* margin: 30px 140px; */
+    
+        justify-content: space-between;
+    }
+    .header-section{
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: #FFF8F3;
+        background-image: url("../images/header_bg.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+    .developer-content{
+        margin: 0px 0px 0px 0px;
+        display: flex;
+    }
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .heir-me{
+        padding: 5px 10px;
+        background-color: #FD6E0A;
+        color: rgb(255, 255, 255);
+        font-weight: bolder ;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    
+    }
+    .title{
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 24px;
+    }
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
+
 }
