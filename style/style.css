@@ -124,6 +124,7 @@ nav ul li{
     width: 500px;
 }
 .skills{
+    /* width: 100%; */
     margin-top: 100px;
 }
 .skil-items{
@@ -216,4 +217,51 @@ hr{
 }
 .form-section{
     width: 50%;
+}
+
+.heid{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .skil-items{
+        width: 70%;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    .my-info{
+        flex-direction: column;
+        width:calc(100%-30px);
+        padding: 30px;
+    }
+    .footer-items{
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .Connect{
+        width: 90%;
+    }
+    .form-section{
+        width: 90%;
+    }
+    
+    .myBtn{
+        text-align: center;
+    }
+    .final-title{
+        text-align: center;
+    }
+    .form-section form input,.message{
+        outline: none;
+        padding: 15px;
+        border: none;
+        width: 95%;
+        margin: 0px 5%;
+    }
 }
